@@ -4,14 +4,56 @@ SGI es una aplicación web para gestionar, registrar y analizar indicadores de d
 
 ## Qué hace el sistema
 
-SGI permite:
+SGI permite controlar la operación diaria de una organización a través de indicadores claros, metas medibles y seguimiento continuo. En la práctica, el sistema sirve para:
 
-- Registrar indicadores por proceso y por periodo.
-- Visualizar el estado de cumplimiento mediante semáforos.
-- Consultar históricos y tendencias de desempeño.
-- Administrar procesos, indicadores y usuarios.
+- Registrar resultados de indicadores por proceso y por periodo.
+- Medir si cada indicador cumple o no con su meta.
+- Visualizar el estado de cumplimiento con semáforos verde, amarillo y rojo.
+- Consultar históricos y tendencias de desempeño a lo largo del tiempo.
+- Administrar procesos, indicadores y usuarios desde un panel centralizado.
 - Adjuntar evidencias documentales en formato PDF.
 - Diferenciar accesos según el rol del usuario.
+
+## Funcionalidades destacadas
+
+### 1. Gestión de indicadores
+- Crear, editar y eliminar indicadores.
+- Asignar cada indicador a un proceso específico.
+- Definir meta, unidad de medida, frecuencia, fórmula de cálculo y umbrales del semáforo.
+- Activar o desactivar indicadores según su estado.
+
+### 2. Registro operativo
+- Ingresar resultados mensuales o periódicos para cada indicador.
+- Escribir análisis de causas y plan de acción.
+- Guardar registros como borrador o enviarlos oficialmente.
+- Adjuntar evidencia documental en PDF.
+
+### 3. Monitoreo y tablero ejecutivo
+- Ver un dashboard general con el cumplimiento por proceso.
+- Identificar procesos que cumplen, que están en riesgo o que no cumplen.
+- Consultar métricas consolidadas de forma visual.
+
+### 4. Histórico y trazabilidad
+- Revisar registros anteriores por periodo y por indicador.
+- Filtrar por proceso, indicador, frecuencia y rango de fechas.
+- Comparar tendencias para analizar evolución y desempeño.
+- Ver datos de quien registró la información y su evidencia asociada.
+
+### 5. Administración del sistema
+- Crear y administrar usuarios.
+- Asignar roles como Administrador o Líder de Proceso.
+- Vincular usuarios a procesos específicos.
+- Gestionar indicadores y permisos desde un mismo entorno.
+
+## Pantallas principales
+
+- Login: acceso seguro al sistema.
+- Dashboard: resumen ejecutivo del cumplimiento.
+- Matriz de Indicadores: catálogo completo con descripción y configuración.
+- Registrar Indicador: formulario para ingresar resultados y planes de acción.
+- Histórico: visualización de registros anteriores y tendencias.
+- Procesos: vista jerárquica y consolidada por proceso empresarial.
+- Configuración: administración de usuarios e indicadores.
 
 ## Arquitectura general
 
