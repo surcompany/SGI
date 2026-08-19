@@ -380,8 +380,8 @@ const Historico: React.FC = () => {
                   <p className="text-xs text-slate-700 leading-relaxed">{r.observaciones || 'Sin análisis registrado.'}</p>
                 </div>
                 <div className="bg-slate-50/50 p-4 rounded-lg">
-                  <p className="text-[10px] font-bold text-slate-400 uppercase mb-2 flex items-center gap-1"><TrendingUp size={10} /> Plan de Acción</p>
-                  <p className="text-xs text-slate-700 leading-relaxed">{r.accion_mejora || 'Sin plan de acción registrado.'}</p>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase mb-2 flex items-center gap-1"><TrendingUp size={10} /> Observación</p>
+                  <p className="text-xs text-slate-700 leading-relaxed">{r.accion_mejora || 'Sin Observación registrada.'}</p>
                 </div>
               </div>
 
